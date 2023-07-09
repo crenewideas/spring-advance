@@ -36,7 +36,7 @@ public class TargetOne {
         System.out.println("set foo by type");
     }
     @Autowired
-    @Qualifier("foo2")
+    @Qualifier("Foo2")
     public void setFoo2(Foo foo2) {
         this.foo2 = foo2;
         System.out.println("set foo2 by name");
