@@ -1,6 +1,6 @@
 package cn.pxl.autowiretype;
 
-import cn.pxl.demo.autowiretype.TargetOne;
+import cn.pxl.entity.autowiretype.TargetOne;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class AutowireTypeDemo {

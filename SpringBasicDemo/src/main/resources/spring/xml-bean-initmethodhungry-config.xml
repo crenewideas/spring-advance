@@ -9,7 +9,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/beans/spring-context.xsd"
         default-lazy-init="false" default-init-method="init">
-    <bean id="singerOne"  class="cn.pxl.demo.lifecycle.Singer" p:age="66" p:name="singerOne"/>
-    <bean id="singerTwo"  class="cn.pxl.demo.lifecycle.Singer" p:age="88"/>
-    <bean id="singerThree"  class="cn.pxl.demo.lifecycle.Singer" p:name="singerThree"/>
+    <bean id="singerOne" class="cn.pxl.entity.lifecycle.initmethod.Singer" p:age="66" p:name="singerOne"/>
+    <bean id="singerTwo" class="cn.pxl.entity.lifecycle.initmethod.Singer" p:age="88"/>
+    <bean id="singerThree" class="cn.pxl.entity.lifecycle.initmethod.Singer" p:name="singerThree"/>
 </beans>

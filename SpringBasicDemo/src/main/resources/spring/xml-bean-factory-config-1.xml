@@ -7,9 +7,9 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/beans/spring-context.xsd">
-    <bean id="oracle" name="wiseworm" class="cn.pxl.demo.impl.BookwormOracle">
+    <bean id="oracle" name="wiseworm" class="cn.pxl.entity.impl.BookwormOracle">
 
     </bean>
     
-<!--    <context:component-scan base-package="cn.pxl.demo.annotation"/>-->
+<!--    <context:component-scan base-package="cn.pxl.entity.annotation"/>-->
 </beans>

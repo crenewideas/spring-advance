@@ -8,8 +8,8 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/beans/spring-context.xsd">
-    <bean id="beforeReplace"  class="cn.pxl.demo.impl.replace.ReplacementTarget"/>
-    <bean id="afterReplace"  class="cn.pxl.demo.impl.replace.ReplacementTarget">
+    <bean id="beforeReplace"  class="cn.pxl.entity.impl.replace.ReplacementTarget"/>
+    <bean id="afterReplace"  class="cn.pxl.entity.impl.replace.ReplacementTarget">
         <replaced-method name="formatMessage" replacer="methodReplacer">
             <arg-type>String</arg-type>
         </replaced-method>
@@ -17,5 +17,5 @@
             <arg-type>Object</arg-type>
         </replaced-method>
     </bean>
-    <bean id="methodReplacer" class="cn.pxl.demo.impl.replace.ReplacerForTarget"/>
+    <bean id="methodReplacer" class="cn.pxl.entity.impl.replace.ReplacerForTarget"/>
 </beans>

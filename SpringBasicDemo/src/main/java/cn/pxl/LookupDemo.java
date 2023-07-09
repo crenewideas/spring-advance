@@ -1,10 +1,9 @@
 package cn.pxl;
 
-import cn.pxl.demo.LookupConfig;
-import cn.pxl.demo.intf.AbstractLookup;
-import cn.pxl.demo.intf.DemoBean;
-import cn.pxl.demo.intf.PrototypeLookup;
-import cn.pxl.demo.intf.Singer;
+import cn.pxl.entity.LookupConfig;
+import cn.pxl.entity.intf.AbstractLookup;
+import cn.pxl.entity.intf.DemoBean;
+import cn.pxl.entity.intf.Singer;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class LookupDemo {
